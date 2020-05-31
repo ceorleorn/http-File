@@ -32,6 +32,7 @@ class ServerHttp():
             print('请求耗时(毫秒):' + str(self.contectTicktime))
 
     def getFile(self, src):
+        print('开始下载.......')
         self.rp = requests.post(host + '/getFile', data={'path': src})
         if self.rp.status_code == 200:
             if dict(eval(self.rp.text))['state'] == 200:
