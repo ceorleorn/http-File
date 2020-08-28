@@ -30,6 +30,7 @@ Serverconfig = {'serverName': 'DemoServer',
 ##### 此时就可以下载demofile里的东西了，也可以在server.py中替换成别的文件夹
 ##### 例如输入csdn.png，或者直接输入"/"下载整个demofile文件夹
 ##### 目前可以正常下载中文，图片等文件
+``` markdown
 *为文件夹类型
 索引如下:
 路径 ://csdn.png
@@ -105,9 +106,10 @@ Serverconfig = {'serverName': 'DemoServer',
 为文件类型
 保存在C:\Users\Administrator\http-File/save////demofile.py
 请求结束.......
+```
 
 ### 作者的话
-##### 作者才上五年级哈,如果有语法不简洁或者做的不好的地方请谅解.
+##### 作者才上五年级（现在已经六年级啦！！！）哈,如果有语法不简洁或者做的不好的地方请谅解.
 ##### 但如果觉得做得不错的话给个Star或者Fork支持一下吧！
 #### (*^▽^*)
 
