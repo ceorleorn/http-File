@@ -13,9 +13,9 @@
 Serverconfig = {'serverName': 'DemoServer',
                 'serverfile': './demofile', 'serverport': 1301}
 ```
-##### ServerName参数是客户端连接后显示的名称
-##### serverfile是服务器中可下载文件的路径
-##### serverport是服务器http协议开启的端口
+* serverName参数是客户端连接后显示的名称
+* serverfile是服务器中可下载文件的路径
+* serverport是服务器http协议开启的端口
 
 ### 启动client.py并连接
 *连接地址:*
@@ -27,9 +27,9 @@ Serverconfig = {'serverName': 'DemoServer',
 服务器名称:DemoServer
 服务器地址:http://127.0.0.1:1301
 输入目标文件或文件夹:*
-##### 此时就可以下载demofile里的东西了，也可以在server.py中替换成别的文件夹
-##### 例如输入csdn.png，或者直接输入"/"下载整个demofile文件夹
-##### 目前可以正常下载中文，图片等文件
+此时就可以下载demofile里的东西了，也可以在server.py中替换成别的文件夹
+例如输入csdn.png，或者直接输入"/"下载整个demofile文件夹
+目前可以正常下载中文，图片等文件
 ``` markdown
 *为文件夹类型
 索引如下:
